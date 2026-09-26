@@ -1,0 +1,324 @@
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+}
+
+.higher_page {
+	background-color: white;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.frequently_asked_questions {
+	background-color: #F0F0F0;
+	flex: 1;
+}
+
+.frequently_asked_questions_container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#Untitled {
+	font-weight: bold;
+	padding: 0px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 0px 20px;
+	border-bottom: 2px solid lightgrey;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: blue;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 15px 15px 0;
+}
+
+nav #signup a {
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#hero {
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+
+#pricing {
+	color: blue;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+#hero h1 {
+	margin-bottom: 0;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 15px;
+}
+
+.card {
+	display: grid;
+	grid-template-rows: auto auto auto 1fr auto;
+	border: 2px solid blue;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.card h2 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.card h3 {
+	margin: 0px;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.card ul {
+	list-style: disc;
+	list-style-position: outside;
+}
+
+button {
+	background-color: white;
+	color: blue;
+	border: 2px solid blue;
+	font-weight: bold;
+	width: 80%;
+	margin: 10px auto;
+	border-radius: 5px;
+	height: 40px;
+}
+
+footer {
+	color: blue;
+	text-align: left;
+	margin-top: 35px;
+	width: 90%;
+	margin: auto;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+#discount {
+	width: 20%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.description {
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+#burger {
+	display: none;
+}
+
+.frequently_asked_questions {
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+
+.faq {
+	/*background-color: #F0F0F0;*/
+	margin-top: 20px;
+	width: 100%;
+}
+
+#faq {
+	color: blue;
+}
+
+.faq_container {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid lightgrey;
+	padding-right: 20px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	height: auto;
+
+}
+
+.faq h2 {
+	font-size: 30px;
+	margin-top: 0;
+	padding: 0;
+}
+
+.faq h3 {
+	font-size: 13px;
+}
+
+.faq p {
+	font-size: 15px;
+}
+
+.faq div > p {
+	padding-left: 10px;
+}
+
+.faq_container:hover {
+	cursor: pointer;
+}
+
+.plus:hover {
+	cursor: pointer;
+}
+
+.contact_form {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.cards_2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 30px;
+}
+
+.card_2.form {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+
+form {
+	width: 85%;
+}
+
+#contact {
+	color: blue;
+	margin-bottom: 0;
+}
+
+.contact_form h1 {
+	margin-top: 10px;
+}
+
+.contact_form p {
+	margin-top: 0;
+}
+
+.card_2 p {
+	color: grey;
+}
+
+.name {
+	margin-bottom: 20px;
+}
+
+.email {
+	margin-bottom: 20px;
+}
+
+.champ label, .champ p {
+	display: inline-block;
+}
+
+.champ p {
+	height: 5px;
+}
+
+label {
+	height: 20px;
+	font-size: 15px;
+}
+
+input {
+	width: 100%;
+	height: 20px;
+}
+
+#text_message {
+	width: 100%;
+	height: 80px;
+	margin-bottom: 20px;
+}
+
+#message {
+	width: 40%;
+}
+
+@media (max-width: 820px) {
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 25px;
+	}
+	nav {
+		display: none;
+	}
+	.navigation.open {
+		display: block;
+	}
+	nav ul {
+		margin-bottom: 10px;
+	}
+	nav li {
+		padding: 8px;
+		font-size: 16px;
+		display: block;
+		text-align: center;
+	}
+	#burger {
+		display: block;
+		background-color: none;
+		size: 2rem;
+	}
+	#discount {
+		width: 40%;
+	}
+	.cards_2 {
+		display: block;
+	}
+	.card_2.form {
+		align-items: normal;
+	}
+}
+
+@media (hover:hover) {
+	button:hover {
+		background-color: darkblue;
+		cursor: pointer;
+		color: white;
+	}
+}
