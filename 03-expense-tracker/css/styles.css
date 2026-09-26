@@ -1,0 +1,78 @@
+body {
+	width: 70%;
+	margin: auto;
+}
+
+header {
+	background-color: lightblue;
+	color: white;
+}
+
+header h1 {
+	text-align: center;
+}
+
+main {
+	border: 5px solid lightblue;
+	height: 200px;
+}
+
+form {
+	border-bottom: 2px solid lightgrey;
+	width: 70%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.champ {
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 15px;
+}
+
+.label_input {
+	display: inline-block;
+}
+
+#validation {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100%;
+}
+
+#validation:hover {
+	cursor: pointer;
+}
+
+h2 {
+	margin-left: 15px;
+	margin-bottom: 0;
+	text-decoration: underline;
+	color: lightblue;
+}
+
+.container {
+	display: flex;
+}
+
+.depenses {
+	margin-left: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: lightblue;
+	color: white;
+	width: 60%;
+	height: 30px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.cancel {
+	width: fit-content;
+	cursor: pointer;
+}
