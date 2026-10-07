@@ -1,3 +1,3 @@
-# Langages de balisage
+# Markup Languages
 
-Exercices et projets réalisés dans le cadre du cours de Langages de balisage à l'EFP.
+Exercises and projects completed as part of the Markup Languages course at EFP.
