@@ -1,3 +1,3 @@
-# Formation EFP – Développement Web
+# EFP Training – Web Development
 
-Ce dossier regroupe les exercices et projets réalisés dans le cadre de ma formation à l'EFP.
+This folder contains exercises and projects completed as part of my Web Development training at EFP.
