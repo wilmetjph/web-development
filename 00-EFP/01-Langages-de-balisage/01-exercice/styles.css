@@ -1,0 +1,75 @@
+body {
+	background-color: #B39EB5;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	align-content: center;
+	gap: 30px;
+}
+
+.tarif_basic {
+	background-color: skyblue;
+	border-radius: 10px;
+	width: 25%;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.tarif_pro {
+	background-color: orangered;
+	border-radius: 10px;
+	width: 25%;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.tarif_premium {
+	background-color: lightseagreen;
+	border-radius: 10px;
+	width: 25%;
+	display: inline-block;
+}
+
+#body {
+	background-color: lightgrey;
+	border-radius: 10px;
+}
+
+h3 {
+	margin: 0;
+}
+
+.contenu {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.contenu p {
+	margin: 5px;
+}
+
+#price {
+	#border-bottom: 2px dashed darkgrey;
+	padding-bottom: 7px;
+}
+
+#price p {
+	margin: 2px;
+	color: grey;
+}
+
+.contenu p {
+	color: grey;
+}
+
+#body footer {
+	color: white;
+	font-size: 20px;
+	font-weight: strong;
+	border-top: 2px solid darkgrey;
+	padding: 10px;
+}
+
+#body footer:hover {
+	cursor: pointer;
+}
