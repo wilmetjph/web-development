@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    display: block;
+}
+
+.container input:checked + label{
+    color: grey;
+    text-decoration: line-through;
+}
+
+.container:nth-child(odd) {
+    background-color: beige;
+}
+
+.container:nth-child(even) {
+    background-color: lightblue;
+}
+
+.container:nth-child(4n) {
+    background-color: pink;
+}
