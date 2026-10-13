@@ -12,16 +12,16 @@
         <div id="infos">
             <div class="champ">
                 <label>Username</label>
-                <input type="text" placeholder="Username" pattern="[0-9a-zA-Z]+" required />
+                <input type="text" placeholder="Username" pattern="[0-9a-zA-Z]+" title="At least 5 characters, using only letters and numbers." required />
             </div>
             <div class="champ">
                 <label>Email</label>
-                <input type="email" id="email" placeholder="test@example.com" pattern=".+@example\.com" required />
+                <input type="email" id="email" placeholder="test@example.com" pattern=".+@example\.com" title="Please enter an email ending with @example.com." required />
                 <span></span>
             </div>
             <div class="champ">
                 <label>Password</label>
-                <input type="password" placeholder="Password" minlength="5" pattern="[0-9a-zA-Z]+" required/>
+                <input type="password" placeholder="Password" minlength="5" pattern="[0-9a-zA-Z]+" title="At least 5 characters, using only letters and numbers." required/>
             </div> 
             <input type="submit" value="Submit">
         </div>

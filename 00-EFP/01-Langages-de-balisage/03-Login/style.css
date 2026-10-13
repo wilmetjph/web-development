@@ -6,7 +6,7 @@ body {
 
 #form {
     width: 35%;
-    height: 45%;
+    height: 55%;
     margin: auto;
     border-radius: 10%;
     align-content: center;
@@ -43,6 +43,7 @@ h2, label {
 
 label {
     visibility: hidden;
+    display: block;
     margin-left: 20%;
     margin-bottom: 10px;
 }
@@ -60,11 +61,11 @@ label:has(+input:focus) {
     visibility: visible;
 }
 
-input:user-valid {
+.champ input:valid:not(:placeholder-shown) {
     border: 3px solid green;
 }
 
-input:user-invalid {
+.champ input:invalid:not(:placeholder-shown) {
     border: 3px solid red;
 }
 
