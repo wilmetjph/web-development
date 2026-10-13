@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <form id="form">
+        <h2>Log in</h2>
+        <div id="infos">
+            <div class="champ">
+                <label>Username</label>
+                <input type="text" placeholder="Username" pattern="[0-9a-zA-Z]+" required />
+            </div>
+            <div class="champ">
+                <label>Email</label>
+                <input type="email" id="email" placeholder="test@example.com" pattern=".+@example\.com" required />
+                <span></span>
+            </div>
+            <div class="champ">
+                <label>Password</label>
+                <input type="password" placeholder="Password" minlength="5" pattern="[0-9a-zA-Z]+" required/>
+            </div> 
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
