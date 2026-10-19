@@ -1,8 +1,19 @@
 # Web Development
 
-Web development exercises and projects using HTML, CSS and JavaScript.
+A collection of web development projects and exercises completed through self-directed learning and training at efp.
 
-## Repository structure
+This repository reflects my ongoing development of practical skills in HTML, CSS and JavaScript, with a particular interest in building interactive web applications.
 
-- [**00-efp**](./00-efp/) — Coursework and exercises completed as part of my Web Development training at EFP.
-- [**01-projects**](./01-projects/) — Web projects: My Little Lemon, Flowdesk and Expense Tracker.
+## Repository Structure
+
+### 00 — EFP Coursework
+
+Exercises completed as part of my web development training at efp, covering HTML, CSS and web development fundamentals.
+
+[Explore coursework](./00-efp/)
+
+### 01 — Personal Projects
+
+A selection of personal projects exploring responsive web design, user interfaces and JavaScript interactivity.
+
+[Explore projects](./01-projects/)
