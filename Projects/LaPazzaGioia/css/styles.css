@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+/****** Structure *****/
+
+/* Body & Header */
+
+body {
+    background-color: rgb(204, 194, 182);
+}
+
+header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    height: 90px;
+    width: 170px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: fixed;
+    margin-top: 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    color: rgb(245, 243, 237);
+    display: inline-block;
+    font-size: 16px;
+    padding: 7px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+}
+
+.instagram {
+    font-family: "bootstrap-icons";
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 243, 237);
+    cursor: pointer;
+}
+
+.burger-menu {
+    display: none;
+}
+
+button {
+    border: 2px solid rgb(245, 243, 237);
+    font-size: 16px;
+    padding: 15px;
+    background-color: transparent;
+    color: rgb(245, 243, 237);
+}
+
+button:hover {
+    background-color: rgb(245, 243, 237);
+    color: black;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(39, 36, 34);
+    color: rgb(245, 243, 237);
+    min-height: 300px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-card {
+    display: grid;
+    height: 250px;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+footer h1 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+#social-networks p{
+    margin-bottom: 25px;
+}
+
+footer button {
+    border: 2px solid rgb(245, 243, 237);;
+    color: rgb(245, 243, 237);
+    font-size: 18px;
+    padding: 5px;
+    background-color: transparent;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+/****** Index *****/
+
+#header-index {
+    background-image: url('../img/LaPazzaGioia_11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+#description {
+    min-height: 700px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 36, 34);
+    color: rgb(245, 243, 237);
+    text-align: center;
+}
+
+#description-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#description-container p {
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    font-size: 20px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+#book-small-screen {
+    display: none;
+}
+
+#salle {
+    background-image: url('../img/LaPazzaGioia_14.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+#entree {
+    background-image: url('../img/LaPazzaGioia_15.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#menu {
+    min-height: 900px;
+    background-color: rgb(204, 194, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#menu-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#menu-container h1 {
+    color: rgb(69, 64, 61);
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.span-menu {
+    color: rgb(69, 64, 61); 
+    font-size: 40px;
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: '+';
+    font-size: 32px;
+}
+
+details[open] summary {
+    border: none;
+}
+
+details[open] summary::after {
+    content: "−";
+}
+
+details h3 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+details ul {
+    margin-left: 50px;
+}
+
+details ul li {
+    margin-bottom: 10px;
+}
+
+/****** Gallery *****/
+
+#main-gallery {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.img-gallery {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#main-gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+/****** Contact *****/
+
+#main-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-coordonnees {
+    display: grid;
+    text-align: center;
+    gap: 15px;
+    min-height: 600px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+#contact-button {
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+#contact-button:hover {
+    color: white;
+    background-color: black;
+}
+
+#vitrine {
+    background-image: url('../img/LaPazzaGioia_21.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#contact-horaires {
+    display: grid;
+    gap: 20px;
+}
+
+/****** Catering *****/
+
+#catering-container {
+    display: grid;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#catering-service {
+    margin-bottom: 50px;
+    gap: 30px;
+    display: grid;
+    min-height: 400px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#catering-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.img-catering {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/****** Takeaway *****/
+
+#takeaway-container {
+    display: grid;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#takeaway-delivery {
+    margin-bottom: 50px;
+    display: grid;
+    gap: 30px;
+    min-height: 1000px;
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#takeaway-delivery ul {
+    list-style: none;
+}
+
+#offer, #reservation {
+    display: grid;
+}
+
+#offer {
+    margin-bottom: 20px;
+}
+
+#offer ul li {
+    margin-bottom: 5px;
+}
+
+.platform-img {
+    height: 60px;
+    width: 60px;
+}
+
+#takeaway-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.img-takeaway {
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/****** About *****/
+
+#about-main {
+    height: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.about-img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-description {
+    display: grid;
+    gap: 30px;
+    align-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-description p {
+    text-align: justify;
+}
+
+.about-description-article {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/****** Menu *****/
+
+#menu-layout {
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+#table {
+    background-image: url('../img/LaPazzaGioia_22.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+/****** Media Queries *****/
+
+@media (max-width: 800px) {
+    nav > ul {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+        position: relative;
+    }
+    .burger-menu summary {
+        list-style: none;
+        cursor: pointer;
+        font-size: 30px;
+        color: white;
+        border-bottom: none;
+    }
+    .burger-menu summary::after {
+        content: "☰";
+    }
+    .burger-menu[open] summary::after {
+        content: "x";
+    }
+    .burger-menu ul {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 180px;
+        padding: 15px;
+        background-color: rgb(39, 36, 34);
+        list-style: none;
+    }
+    .burger-menu li {
+        display: block;
+        padding: 10px;
+    }
+    #book-small-screen {
+        display: flex;
+        border: 2px solid rgb(245, 243, 237);
+        font-size: 20px;
+        padding: 20px;
+        background-color: transparent;
+        color: rgb(245, 243, 237);
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    #book-small-screen:hover {
+        border : none;
+        background-color: white;
+        color:rgb(39, 36, 34);
+    }
+    #book-large-screen {
+        display: none;
+    }
+    #menu-container {
+        width: 90%;
+    }
+    #catering-service {
+        width: 80%;
+    }
+    footer button {
+        width: 70%;
+    }
+    #contact-button {
+        width: 30%;
+    }
+    #main-gallery-container, #takeaway-img, .card, #catering-img, footer {
+        grid-template-columns: 1fr;
+    }
+    #catering-img img {
+        height: 600px;
+    }
+    #takeaway-delivery {
+        width: 80%;
+    }
+    #takeaway-img {
+        gap: 15px;
+    }
+    #offer, #reservation {
+        gap: 20px;
+    }
+    .card {
+        gap: 20px;
+    }
+    .about-description {
+        margin-bottom: 30px;
+    }
+    .about-description-article {
+        display: grid;
+        gap: 15px;
+        margin-bottom: 0;
+    }
+}
