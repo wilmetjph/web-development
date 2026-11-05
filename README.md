@@ -2,7 +2,7 @@
 
 A collection of web development projects and exercises completed through self-directed learning and training at efp.
 
-This repository reflects my ongoing development of practical skills in HTML, CSS and JavaScript, with a particular interest in building interactive web applications.
+This repository reflects my ongoing development of practical skills in HTML, CSS and JavaScript.
 
 ## 00 — EFP Coursework
 
