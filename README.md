@@ -1,6 +1,6 @@
 # Web Development
 
-A collection of web development projects and programming exercises, focusing on responsive design, user interfaces, and JavaScript.
+A collection of web development projects and programming exercises, focusing on responsive design, and user interfaces.
 
 ## Projects
 
