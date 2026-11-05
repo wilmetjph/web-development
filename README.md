@@ -1,5 +1,17 @@
-## EFP Coursework
+# Web Development
 
-Exercises completed as part of my web development training at efp, covering HTML, CSS and web development fundamentals.
+A collection of web development exercises and projects.
 
-[Explore coursework](./00-efp/)
+## Projects
+
+- **Pazza Gioia** — responsive multi-page restaurant website (to be added).
+- **Dog Adoption** — responsive dog adoption website (to be added).
+- **Flowdesk** — front-end website (to be added).
+
+## Exercises
+
+Small HTML and CSS exercises:
+
+- [Pricing](./exercises/pricing/)
+- [Todo](./exercises/todo/)
+- [Login](./exercises/login/)
