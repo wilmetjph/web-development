@@ -1,6 +1,6 @@
 # Web Development
 
-A collection of web development projects and programming exercises, focusing on responsive design, and user interfaces.
+A collection of programming exercises and web development projects, focusing on responsive design, and user interfaces.
 
 ## Projects
 
@@ -8,11 +8,6 @@ A collection of web development projects and programming exercises, focusing on 
 A responsive multi-page restaurant website built with HTML and CSS, featuring navigation, menus, and image galleries.
 
 [View source code](./Projects/LaPazzaGioia/)
-
-### [Adopte un Compagnon](https://wilmetjph.github.io/web-development/Projects/AdopteUnCompagnon/)
-A responsive dog adoption website featuring animal profiles and an accessible, visually engaging layout.
-
-[View source code](./Projects/AdopteUnCompagnon/)
 
 ### [Flowdesk](https://wilmetjph.github.io/web-development/Projects/Flowdesk/)
 A responsive business website built with HTML, CSS, and JavaScript.
