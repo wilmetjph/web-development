@@ -1,14 +1,14 @@
 # Web Development Exercises
 
-A collection of exercises completed while learning front-end web development.
+A collection of practical exercises completed while learning front-end web development.
 
-This repository documents my progress in HTML, CSS and JavaScript through small practical exercises.
+This repository documents my progress in HTML, CSS and JavaScript.
 
-## Exercises
+## HTML & CSS Exercises
 
-- [Pricing](./Exercises/pricing/)
-- [Todo](./Exercises/todo/)
-- [Login](./Exercises/login/)
+- [Login](./Exercises/HTML-CSS/login/)
+- [Pricing](./Exercises/HTML-CSS/pricing/)
+- [Todo](./Exercises/HTML-CSS/todo/)
 
 ## Technologies
 
